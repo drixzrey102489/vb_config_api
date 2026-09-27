@@ -1,7 +1,7 @@
 {
   "ok": true,
   "schema": "vb-lite-config-v7-official",
-  "configVersion": 9,
+  "configVersion": 10,
   "appName": "VB INJECTOR LITE",
   "maintenance": false,
   "forceUpdate": false,
@@ -11,7 +11,7 @@
   "@VEM_BRABO": "@VEM_BRABO",
   "OwnerGuard": "@VEM_BRABO",
   "ConfigOwner": "@VEM_BRABO",
-  "Version": "9",
+  "Version": "10",
   "ReleaseNotes": "Configuration updated successfully.",
   "Sms": "Configuration updated successfully.",
   "UrlUpdate": "",
@@ -36,9 +36,9 @@
     "darkMode": true
   },
   "options": {
-    "enableSSH": false,
+    "enableSSH": true,
     "enableXray": true,
-    "enablePayloads": false,
+    "enablePayloads": true,
     "requireActivation": false,
     "authMode": "none",
     "supportUrl": "",
@@ -311,7 +311,7 @@
   },
   "OfflinePack": {
     "enabled": true,
-    "version": 9,
+    "version": 10,
     "owner": "@VEM_BRABO",
     "allow_import": true,
     "include_in_apk": true
