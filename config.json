@@ -1,17 +1,17 @@
 {
   "ok": true,
   "schema": "vb-lite-config-v7-official",
-  "configVersion": 5,
+  "configVersion": 2,
   "appName": "VB INJECTOR LITE",
   "maintenance": false,
   "forceUpdate": true,
-  "minLiteVersion": 3,
+  "minLiteVersion": 2,
   "maintenanceMessage": "Application under maintenance.",
   "forceUpdateMessage": "Mandatory update available.",
   "@VEM_BRABO": "@VEM_BRABO",
   "OwnerGuard": "@VEM_BRABO",
   "ConfigOwner": "@VEM_BRABO",
-  "Version": "5",
+  "Version": "2",
   "ReleaseNotes": "Configuration updated successfully.",
   "Sms": "Configuration updated successfully.",
   "UrlUpdate": "",
@@ -176,7 +176,7 @@
   },
   "OfflinePack": {
     "enabled": true,
-    "version": 5,
+    "version": 2,
     "owner": "@VEM_BRABO",
     "allow_import": true,
     "include_in_apk": true
@@ -239,7 +239,7 @@
   ],
   "xrayProfiles": [
     {
-      "id": "xr_9cee67828b",
+      "id": "xr_af65b1a607",
       "name": "DITO SG DIGITAL OCEAN ",
       "protocol": "vless",
       "host": "api24-normal.tiktokv.com",
