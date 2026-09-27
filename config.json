@@ -1,17 +1,17 @@
 {
   "ok": true,
   "schema": "vb-lite-config-v7-official",
-  "configVersion": 17,
+  "configVersion": 18,
   "appName": "VB INJECTOR LITE",
   "maintenance": false,
   "forceUpdate": false,
-  "minLiteVersion": 17,
+  "minLiteVersion": 18,
   "maintenanceMessage": "Application under maintenance.",
   "forceUpdateMessage": "Mandatory update available.",
   "@VEM_BRABO": "@VEM_BRABO",
   "OwnerGuard": "@VEM_BRABO",
   "ConfigOwner": "@VEM_BRABO",
-  "Version": "17",
+  "Version": "18",
   "ReleaseNotes": "Configuration updated successfully.",
   "Sms": "Configuration updated successfully.",
   "UrlUpdate": "",
@@ -62,6 +62,19 @@
       "SSLPort": "443",
       "USER": "alden",
       "PASS": "alden"
+    },
+    {
+      "id": 2,
+      "Id": 2,
+      "Name": "DITO SG",
+      "TYPE": "ssl",
+      "FLAG": "All",
+      "ServerIP": "tiktok.drixzrey.xyz",
+      "CheckUser": "",
+      "ServerPort": "80",
+      "SSLPort": "443",
+      "USER": "alden",
+      "PASS": "alden"
     }
   ],
   "Networks": [
@@ -75,6 +88,17 @@
       "ProxyPort": "80",
       "Info": "ssl",
       "info": "ssl"
+    },
+    {
+      "Name": "DITO DATA MAX",
+      "FLAG": "All",
+      "Payload": "GET \/ssh-ws HTTP\/1.1[crlf]Host: tiktok.drixzrey.xyz[crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]",
+      "SNI": "tiktok.drixzrey.xyz",
+      "TlsIP": "",
+      "ProxyIP": "api24-normal-useast1a.tiktokv.com",
+      "ProxyPort": "443",
+      "Info": "tlsws",
+      "info": "tlsws"
     }
   ],
   "Udp": [
@@ -298,7 +322,7 @@
   },
   "OfflinePack": {
     "enabled": false,
-    "version": 17,
+    "version": 18,
     "owner": "@VEM_BRABO",
     "allow_import": true,
     "include_in_apk": true
@@ -335,6 +359,38 @@
       "CheckUser": "",
       "TYPE": "ssl",
       "FLAG": "All"
+    },
+    {
+      "id": "srv_c52b1825a6",
+      "name": "DITO SG",
+      "host": "tiktok.drixzrey.xyz",
+      "port": 80,
+      "method": "SSL + Payload",
+      "username": "alden",
+      "password": "alden",
+      "protocol": "SSH_SSL",
+      "sslPort": 443,
+      "proxyHost": "",
+      "proxyPort": 80,
+      "sni": "",
+      "tls": true,
+      "udpPort": 7300,
+      "dnsPrimary": "1.1.1.1",
+      "dnsSecondary": "8.8.8.8",
+      "country": "SG",
+      "operator": "All",
+      "category": "Main",
+      "priority": 1,
+      "active": true,
+      "checkUserUrl": "",
+      "ServerIP": "tiktok.drixzrey.xyz",
+      "ServerPort": "80",
+      "SSLPort": "443",
+      "USER": "alden",
+      "PASS": "alden",
+      "CheckUser": "",
+      "TYPE": "ssl",
+      "FLAG": "All"
     }
   ],
   "payloads": [
@@ -357,6 +413,26 @@
       "ProxyIP": "",
       "ProxyPort": "80",
       "Info": "ssl"
+    },
+    {
+      "id": "pay_40fadbbe48",
+      "name": "DITO DATA MAX",
+      "value": "GET \/ssh-ws HTTP\/1.1[crlf]Host: tiktok.drixzrey.xyz[crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]",
+      "operator": "All",
+      "networkType": "CUSTOM",
+      "httpMethod": "CONNECT",
+      "hostHeader": "",
+      "sni": "tiktok.drixzrey.xyz",
+      "proxyHost": "api24-normal-useast1a.tiktokv.com",
+      "proxyPort": 443,
+      "mode": "tlsws",
+      "active": true,
+      "Payload": "GET \/ssh-ws HTTP\/1.1[crlf]Host: tiktok.drixzrey.xyz[crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]",
+      "SNI": "tiktok.drixzrey.xyz",
+      "TlsIP": "",
+      "ProxyIP": "api24-normal-useast1a.tiktokv.com",
+      "ProxyPort": "443",
+      "Info": "tlsws"
     }
   ],
   "xrayProfiles": [
